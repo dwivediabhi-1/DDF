@@ -1,0 +1,321 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-17T06:07:24.205Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2992100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.loadallreq()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Use Filters on Basis of Category Price and Brands",
+        "description": "",
+        "id": "click-on-shop-by-filters-and-verify;use-filters-on-basis-of-category-price-and-brands;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 996700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.before_or_after_all()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19501336500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User goes on Home Page",
+            "match": {
+              "location": "stepdefinitions.useFilters.user_goes_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6474179200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Clicks on any of the Category Menu",
+            "match": {
+              "location": "stepdefinitions.useFilters.user_clicks_on_any_of_the_category_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3232789900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Tries to Use Filters \"Category\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Category\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.useFilters.user_Tries_to_Use_Filters(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 732779100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Selected Filters can be verified",
+            "match": {
+              "location": "stepdefinitions.useFilters.selected_filters_can_be_verified()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3133157200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Clear Filter is clicked",
+            "match": {
+              "location": "stepdefinitions.useFilters.clear_filter_is_clicked()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-17T06:07:57.538Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.loadallreq()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Use Filters on Basis of Category Price and Brands",
+        "description": "",
+        "id": "click-on-shop-by-filters-and-verify;use-filters-on-basis-of-category-price-and-brands;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.before_or_after_all()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26591740300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User goes on Home Page",
+            "match": {
+              "location": "stepdefinitions.useFilters.user_goes_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6821857500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Clicks on any of the Category Menu",
+            "match": {
+              "location": "stepdefinitions.useFilters.user_clicks_on_any_of_the_category_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3409724500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Tries to Use Filters \"Brands\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brands\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.useFilters.user_Tries_to_Use_Filters(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1257634800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Selected Filters can be verified",
+            "match": {
+              "location": "stepdefinitions.useFilters.selected_filters_can_be_verified()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3124298600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Clear Filter is clicked",
+            "match": {
+              "location": "stepdefinitions.useFilters.clear_filter_is_clicked()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-17T06:08:38.763Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.loadallreq()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Use Filters on Basis of Category Price and Brands",
+        "description": "",
+        "id": "click-on-shop-by-filters-and-verify;use-filters-on-basis-of-category-price-and-brands;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.before_or_after_all()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36814984000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User goes on Home Page",
+            "match": {
+              "location": "stepdefinitions.useFilters.user_goes_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8082161100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Clicks on any of the Category Menu",
+            "match": {
+              "location": "stepdefinitions.useFilters.user_clicks_on_any_of_the_category_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 934471700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Tries to Use Filters \"Price\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.useFilters.user_Tries_to_Use_Filters(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 483830400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Selected Filters can be verified",
+            "match": {
+              "location": "stepdefinitions.useFilters.selected_filters_can_be_verified()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3115317600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Clear Filter is clicked",
+            "match": {
+              "location": "stepdefinitions.useFilters.clear_filter_is_clicked()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Click on Shop By Filters and Verify",
+    "description": "",
+    "id": "click-on-shop-by-filters-and-verify",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/filter.feature",
+    "tags": []
+  }
+]
